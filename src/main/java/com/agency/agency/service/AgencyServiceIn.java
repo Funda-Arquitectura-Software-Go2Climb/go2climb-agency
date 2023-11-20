@@ -342,9 +342,9 @@ public class AgencyServiceIn implements AgencyService {
         } else {
             try {
                 WebClient build = webClientBuilder.clientConnector(new ReactorClientHttpConnector(client))
-                        .baseUrl("http://localhost:8081/api/v1/service/")
+                        .baseUrl("https://servicemicro.azurewebsites.net/api/v1/service")
                         .defaultHeader(HttpHeaders.CONTENT_TYPE, MediaType.APPLICATION_JSON_VALUE)
-                        .defaultUriVariables(Collections.singletonMap("url", "http://localhost:8081/api/v1/service/"))
+                        .defaultUriVariables(Collections.singletonMap("url", "https://servicemicro.azurewebsites.net/api/v1/service"))
                         .build();
                 JsonNode block = build.method(HttpMethod.GET).uri("/" + id)
                         .retrieve().bodyToMono(JsonNode.class).block();
@@ -368,9 +368,9 @@ public class AgencyServiceIn implements AgencyService {
         }else{
             try{
                 WebClient build = webClientBuilder.clientConnector(new ReactorClientHttpConnector(client))
-                        .baseUrl("http://localhost:8081/api/v1/service/")
+                        .baseUrl("https://servicemicro.azurewebsites.net/api/v1/service")
                         .defaultHeader(HttpHeaders.CONTENT_TYPE, MediaType.APPLICATION_JSON_VALUE)
-                        .defaultUriVariables(Collections.singletonMap("url", "http://localhost:8081/api/v1/service/"))
+                        .defaultUriVariables(Collections.singletonMap("url", "https://servicemicro.azurewebsites.net/api/v1/service"))
                         .build();
                 JsonNode block = build.method(HttpMethod.GET).uri("/" + id)
                         .retrieve().bodyToMono(JsonNode.class).block();
@@ -394,9 +394,9 @@ public class AgencyServiceIn implements AgencyService {
         }else{
             try{
                 WebClient build = webClientBuilder.clientConnector(new ReactorClientHttpConnector(client))
-                        .baseUrl("http://localhost:8081/api/v1/service/")
+                        .baseUrl("https://servicemicro.azurewebsites.net/api/v1/service")
                         .defaultHeader(HttpHeaders.CONTENT_TYPE, MediaType.APPLICATION_JSON_VALUE)
-                        .defaultUriVariables(Collections.singletonMap("url", "http://localhost:8081/api/v1/service/"))
+                        .defaultUriVariables(Collections.singletonMap("url", "https://servicemicro.azurewebsites.net/api/v1/service"))
                         .build();
                 JsonNode block = build.method(HttpMethod.GET).uri("/" + id)
                         .retrieve().bodyToMono(JsonNode.class).block();
@@ -420,9 +420,9 @@ public class AgencyServiceIn implements AgencyService {
         }else{
             try{
                 WebClient build = webClientBuilder.clientConnector(new ReactorClientHttpConnector(client))
-                        .baseUrl("http://localhost:8081/api/v1/service/")
+                        .baseUrl("https://servicemicro.azurewebsites.net/api/v1/service")
                         .defaultHeader(HttpHeaders.CONTENT_TYPE, MediaType.APPLICATION_JSON_VALUE)
-                        .defaultUriVariables(Collections.singletonMap("url", "http://localhost:8081/api/v1/service/"))
+                        .defaultUriVariables(Collections.singletonMap("url", "https://servicemicro.azurewebsites.net/api/v1/service"))
                         .build();
                 JsonNode block = build.method(HttpMethod.GET).uri("/" + id)
                         .retrieve().bodyToMono(JsonNode.class).block();
@@ -447,9 +447,9 @@ public class AgencyServiceIn implements AgencyService {
         }else{
             try{
                 WebClient build = webClientBuilder.clientConnector(new ReactorClientHttpConnector(client))
-                        .baseUrl("http://localhost:8081/api/v1/service/")
+                        .baseUrl("https://servicemicro.azurewebsites.net/api/v1/service")
                         .defaultHeader(HttpHeaders.CONTENT_TYPE, MediaType.APPLICATION_JSON_VALUE)
-                        .defaultUriVariables(Collections.singletonMap("url", "http://localhost:8081/api/v1/service/"))
+                        .defaultUriVariables(Collections.singletonMap("url", "https://servicemicro.azurewebsites.net/api/v1/service"))
                         .build();
                 JsonNode block = build.method(HttpMethod.GET).uri("/" + id)
                         .retrieve().bodyToMono(JsonNode.class).block();
@@ -473,9 +473,9 @@ public class AgencyServiceIn implements AgencyService {
         }else{
             try{
                 WebClient build = webClientBuilder.clientConnector(new ReactorClientHttpConnector(client))
-                        .baseUrl("http://localhost:8081/api/v1/service/")
+                        .baseUrl("https://servicemicro.azurewebsites.net/api/v1/service")
                         .defaultHeader(HttpHeaders.CONTENT_TYPE, MediaType.APPLICATION_JSON_VALUE)
-                        .defaultUriVariables(Collections.singletonMap("url", "http://localhost:8081/api/v1/service/"))
+                        .defaultUriVariables(Collections.singletonMap("url", "https://servicemicro.azurewebsites.net/api/v1/service"))
                         .build();
                 JsonNode block = build.method(HttpMethod.GET).uri("/" + id)
                         .retrieve().bodyToMono(JsonNode.class).block();
@@ -499,9 +499,9 @@ public class AgencyServiceIn implements AgencyService {
         }else{
             try{
                 WebClient build = webClientBuilder.clientConnector(new ReactorClientHttpConnector(client))
-                        .baseUrl("http://localhost:8081/api/v1/service/")
+                        .baseUrl("https://servicemicro.azurewebsites.net/api/v1/service")
                         .defaultHeader(HttpHeaders.CONTENT_TYPE, MediaType.APPLICATION_JSON_VALUE)
-                        .defaultUriVariables(Collections.singletonMap("url", "http://localhost:8081/api/v1/service/"))
+                        .defaultUriVariables(Collections.singletonMap("url", "https://servicemicro.azurewebsites.net/api/v1/service"))
                         .build();
                 JsonNode block = build.method(HttpMethod.GET).uri("/" + id)
                         .retrieve().bodyToMono(JsonNode.class).block();
@@ -524,9 +524,9 @@ public class AgencyServiceIn implements AgencyService {
         }else{
             try{
                 WebClient build = webClientBuilder.clientConnector(new ReactorClientHttpConnector(client))
-                        .baseUrl("http://localhost:8081/api/v1/service/")
+                        .baseUrl("https://servicemicro.azurewebsites.net/api/v1/service")
                         .defaultHeader(HttpHeaders.CONTENT_TYPE, MediaType.APPLICATION_JSON_VALUE)
-                        .defaultUriVariables(Collections.singletonMap("url", "http://localhost:8081/api/v1/service/"))
+                        .defaultUriVariables(Collections.singletonMap("url", "https://servicemicro.azurewebsites.net/api/v1/service"))
                         .build();
                 JsonNode block = build.method(HttpMethod.GET).uri("/" + id)
                         .retrieve().bodyToMono(JsonNode.class).block();
@@ -550,9 +550,9 @@ public class AgencyServiceIn implements AgencyService {
         }else{
             try{
                 WebClient build = webClientBuilder.clientConnector(new ReactorClientHttpConnector(client))
-                        .baseUrl("http://localhost:8081/api/v1/service/")
+                        .baseUrl("https://servicemicro.azurewebsites.net/api/v1/service")
                         .defaultHeader(HttpHeaders.CONTENT_TYPE, MediaType.APPLICATION_JSON_VALUE)
-                        .defaultUriVariables(Collections.singletonMap("url", "http://localhost:8081/api/v1/service/"))
+                        .defaultUriVariables(Collections.singletonMap("url", "https://servicemicro.azurewebsites.net/api/v1/service"))
                         .build();
                 JsonNode block = build.method(HttpMethod.GET).uri("/" + id)
                         .retrieve().bodyToMono(JsonNode.class).block();
@@ -576,9 +576,9 @@ public class AgencyServiceIn implements AgencyService {
         }else{
             try {
                 WebClient build = webClientBuilder.clientConnector(new ReactorClientHttpConnector(client))
-                        .baseUrl("http://localhost:8081/api/v1/service/")
+                        .baseUrl("https://servicemicro.azurewebsites.net/api/v1/service")
                         .defaultHeader(HttpHeaders.CONTENT_TYPE, MediaType.APPLICATION_JSON_VALUE)
-                        .defaultUriVariables(Collections.singletonMap("url", "http://localhost:8081/api/v1/service/"))
+                        .defaultUriVariables(Collections.singletonMap("url", "https://servicemicro.azurewebsites.net/api/v1/service"))
                         .build();
                 JsonNode block = build.method(HttpMethod.GET).uri("/" + id)
                         .retrieve().bodyToMono(JsonNode.class).block();
